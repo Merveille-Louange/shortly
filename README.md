@@ -1,8 +1,10 @@
-### Objective
+# Shortly
+
+## Objective
 
 Using TypeScript and Angular, your challenge is to build out a URL shortening web app, integrate with the [shrtcode API](https://app.shrtco.de/docs), and get it looking as close to the design as possible.
 
-### Brief
+## Brief
 
 URL shortening is a technique on the Web in which a Uniform Resource Locator (URL) may be made substantially shorter and still direct to the required page. This is achieved by using a redirect that links to the web page that has a long URL. For example, the URL "https://example.com/assets/category_B/subcategory_C/Foo/" can be shortened to "https://example.com/Foo", and the URL "http://example.com/about/index.html" can be shortened to "https://goo.gl/aO3Ssc ".
 
@@ -23,7 +25,9 @@ You will find all the required assets in the `/images` folder. The assets are al
 
 There is also a `style-guide.md` file containing the information you'll need, such as color palette and fonts.
 
-### Evaluation Criteria
+Finally, host the web app so that it can be publicly accessible.
+
+## Evaluation Criteria
 
 -   **TypeScript** best practices
 -   Show us your work through your commit history
@@ -33,14 +37,8 @@ There is also a `style-guide.md` file containing the information you'll need, su
 -   Maintainability: is it written in a clean, maintainable way?
 -   Testing: is the system adequately tested?
 
-### Deliverables
+## Deliverables
 
 Make sure to include all source code in the repository.
 
-### CodeSubmit
-
-Please organize, design, test, and document your code as if it were going into production - then push your changes to the master branch. After you have pushed your code, you may submit the assignment on the assignment page.
-
 **Have fun building!** 🚀
-
-The Sports Media Agency Team
