@@ -2,7 +2,7 @@
 
 ## Objective
 
-Using TypeScript and Angular, your challenge is to build out a URL shortening web app, integrate with the [shrtcode API](https://app.shrtco.de/docs), and get it looking as close to the design as possible.
+Using TypeScript and Angular|ReactJS|VueJS, your challenge is to build out a URL shortening web app, integrate with the [shrtcode API](https://app.shrtco.de/docs), and get it looking as close to the design as possible.
 
 ## Brief
 
