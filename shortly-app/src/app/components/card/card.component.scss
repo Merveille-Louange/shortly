@@ -1,0 +1,26 @@
+.image-container{
+  background: hsl(257, 27%, 26%);
+  height: 75px;
+  position: absolute;
+  top: -36px;
+  justify-content: center;
+  margin: auto;
+  z-index: 1;
+  border-radius: 50%;
+  width: 75px;
+  left: 30px;
+}
+img{
+  width: 30px;
+  height: 30px;
+  margin: auto;
+}
+.card{
+  border: transparent;
+}
+.card-container{
+  position: relative;
+}
+.card-body{
+   padding-top: 75px;
+}

@@ -1,12 +1,33 @@
 <div>
+
+<app-banner></app-banner>
+
   <div class="search-section">
     <app-search></app-search>
   </div>
 
-  <div class="cards">
-    <app-card *ngFor="let card of cards" [cardData]="card">
+  <div class="middle-section">
 
-    </app-card>
+    <div class="advance-stats">
+      <h2>
+        Advanced Statistics
+      </h2>
+      <p>
+        Track how your own links are performing across the web with our advanced statistics dashboard
+      </p>
+    </div>
+
+    <div class="cards">
+      <app-card *ngFor="let card of cards" [cardData]="card">
+      </app-card>
+    </div>
+
+  </div>
+  <div class="secondary-banner">
+   <div class="text-center">
+     <p> boost your links today</p>
+     <button class="btn btn-primary btn-rounded btn-large">get started</button>
+   </div>
   </div>
 
 </div>

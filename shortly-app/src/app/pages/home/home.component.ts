@@ -9,14 +9,14 @@ import {card} from "../../interfaces/card";
 export class HomeComponent implements OnInit {
   cards:Array<card> = [
     {title:"Brand Recognition",
-    description: "Some quick example text to build on the card title and make up the bulk of the card's content.",
-    imageUrl:""},
+    description: "boost your brand with each click. Generic links don't mean a thing. Branded links help instill confidence in your product",
+    imageUrl:"assets/images/icon-brand-recognition.svg"},
     {title:"Detailed Records",
-      description: "Some quick example text to build on the card title and make up the bulk of the card's content.",
-      imageUrl:""},
+      description: "Get insight into who is clicking your link. Knowing when and where people engage with your content helps engage better decisions",
+      imageUrl:"assets/images/icon-detailed-records.svg"},
     {title:"Fully customizable",
-      description: "Some quick example text to build on the card title and make up the bulk of the card's content.",
-      imageUrl:""}
+      description: "Improve brand awareness and content discoverability through customizable links, supercharging audience engagement.",
+      imageUrl:"assets/images/icon-fully-customizable.svg"}
   ]
 
 

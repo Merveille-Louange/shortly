@@ -8,3 +8,17 @@
   //width: 80%;
   padding: 40px;
 }
+.secondary-banner{
+  background:  hsl(257, 27%, 26%) url("../../../assets/images/bg-boost-desktop.svg");
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  p{
+    color: #fff;
+      font-size: 30px;
+    text-transform: capitalize;
+    font-weight: 800;  }
+}
+.middle-section{
+  background-color: hsl(230, 25%, 95.29%);
+}

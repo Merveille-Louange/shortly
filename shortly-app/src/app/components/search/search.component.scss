@@ -4,3 +4,18 @@
 .search-section{
 
 }
+.form-container{
+  min-width: 930px;
+  justify-content: center;
+}
+li{
+  text-decoration: none;
+  list-style: none;
+}
+.float-right{
+  color: hsl(180, 66%, 49%);
+
+  .btn{
+    width: 70px;
+  }
+}

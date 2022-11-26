@@ -1,0 +1,22 @@
+.content{
+  flex: 50% 50%;
+}
+.illustration{
+  background: url("../../../assets/images/illustration-working.svg");
+  height: 480px;
+  width: 50%;
+}
+h2, p{
+  text-align: left;
+}
+.padded-content{
+  padding: 100px 100px;
+  width: 50%;
+}
+h2{
+  font-size: 50px;
+  font-weight: 900;
+}
+p{
+  opacity: 0.5;
+}

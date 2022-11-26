@@ -1,1 +1,45 @@
 /* You can add global styles to this file, and also import other style files */
+
+@font-face {
+  font-family: "Oxygen";
+  //src: local("Oxygen"), url('./assets/fonts/Poppins/Poppins.Regular.ttf') format("truetype");
+}
+body{
+  //font-family: url('https://fonts.google.com/specimen/Poppins');
+  Weights: 700
+}
+
+.btn-violet{
+background-color: hsl(257, 27%, 26%);
+  color: #ffffff;
+}
+
+.btn-primary, .btn-primary:hover{
+  background-color: hsl(180, 66%, 49%);
+}
+.btn-light, .btn-light:hover{
+
+  background-color: transparent;
+}
+.btn-rounded{
+  border-radius: 20px;
+}
+.btn-large{
+  padding-left: 8%;
+  padding-right: 8%;
+  font-weight: 500;
+  font-size: 16px !important;
+}
+.btn, .btn:hover{
+  text-transform: capitalize;
+  font-size: 12px;
+  border: transparent;
+
+}
+.d-flex{
+  display: flex;
+}
+.text-center{
+  align-items: center;
+  margin: auto;
+}
