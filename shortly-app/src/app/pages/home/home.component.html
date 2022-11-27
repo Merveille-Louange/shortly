@@ -17,9 +17,14 @@
       </p>
     </div>
 
+    <hr>
     <div class="cards">
-      <app-card *ngFor="let card of cards" [cardData]="card">
-      </app-card>
+      <ng-container *ngFor="let card of cards; let i=index" >
+        <app-card [cardData]="card" [ngStyle]="{'margin-top': (i*2)+'rem'}">
+        </app-card>
+
+      </ng-container>
+
     </div>
 
   </div>

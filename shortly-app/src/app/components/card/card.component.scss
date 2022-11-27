@@ -23,4 +23,13 @@ img{
 }
 .card-body{
    padding-top: 75px;
+    margin-bottom: 40px;
+}
+.card-text:last-child {
+  margin-bottom: 0;
+  font-size: 13px;
+  opacity: .7;
+}
+.card-title{
+  font-weight: 600;
 }

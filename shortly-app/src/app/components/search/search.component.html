@@ -19,19 +19,21 @@
       </button>
     </div>
   </div>
-<div class="links">
-  <ul>
-    <li *ngIf="shortenService.links?.length ==0">your links will be displayed here</li>
-    <li *ngFor="let link of shortenService.links">
-      <span>{{link.original_link}}</span>
-      <div class="float-right" #container>
-        {{link.full_short_link}}
+  <div class="links">
+    <ul>
+      <li *ngIf="shortenService.links?.length ==0">your links will be displayed here</li>
+      <li *ngFor="let link of shortenService.links">
+        <span>{{link.original_link}}</span>
+        <div class="float-right" #container>
+          <span class="mr-3">
+            {{link.full_short_link}}
+          </span>
 
-        <button ngxClipboard [cbContent]="link.full_short_link" [container]="container" (click) ='showCopyText(link)' [ngClass]="link.copied ? 'btn-violet' : 'btn-primary'" class="btn">
-          {{link.copied ? 'copied!' : 'copy'}}
-        </button>
-      </div>
-    </li>
-  </ul>
-</div>
+          <button ngxClipboard [cbContent]="link.full_short_link" [container]="container" (click) ='showCopyText(link)' [ngClass]="link.copied ? 'btn-violet' : 'btn-primary'" class="btn">
+            {{link.copied ? 'copied!' : 'copy'}}
+          </button>
+        </div>
+      </li>
+    </ul>
+  </div>
 </div>

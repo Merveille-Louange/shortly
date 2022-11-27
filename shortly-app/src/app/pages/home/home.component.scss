@@ -1,6 +1,18 @@
 .cards{
   display: flex;
   justify-content: space-around;
+  padding-bottom: 93px;
+  width: 70%;
+  margin: auto;
+}
+hr{
+  height: 8px;
+  background: #2acfcf;
+  border: 1px solid #2acfcf;
+  width: 60%;
+  position: absolute;
+  left: 19%;
+  top: 53%;
 }
 .search-section{
   justify-content: center;
@@ -22,4 +34,16 @@
 }
 .middle-section{
   background-color: hsl(230, 25%, 95.29%);
+  position: relative;
+}
+.advance-stats{
+  text-align: center;
+  padding: 30px;
+  margin-bottom: 55px;
+  /* width: 50%; */
+  justify-content: center;
+  p{
+    margin: auto;
+    width: 50%;
+  }
 }

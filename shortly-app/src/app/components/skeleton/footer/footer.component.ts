@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FooterComponent implements OnInit {
 
-  socialMedias = ['facebook', 'twitter', 'pinterest', 'instagram'];
+  socialMedias = [{name: 'facebook', is_active:false}, {name:'twitter',is_active:false}, {name: 'pinterest', is_active:false}, {name:'instagram', is_active:false}];
   links = [
     {title:'features',
     sublinks:[
@@ -43,6 +43,13 @@ export class FooterComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  enableLink(link:any){
+    link.is_active = true
+  }
+  disableLink(link:any){
+    link.is_active = false
   }
 
 }

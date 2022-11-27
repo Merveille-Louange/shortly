@@ -1,12 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
 
 @font-face {
-  font-family: "Oxygen";
-  //src: local("Oxygen"), url('./assets/fonts/Poppins/Poppins.Regular.ttf') format("truetype");
+  font-family: 'f-normal';
+  src: url(assets/fonts/Poppins/Poppins-Regular.ttf);
 }
 body{
-  //font-family: url('https://fonts.google.com/specimen/Poppins');
+  font-family:f-normal;
   Weights: 700
+}
+h2{
+  font-weight: 700;
 }
 
 .btn-violet{
