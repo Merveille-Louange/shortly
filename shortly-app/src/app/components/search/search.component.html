@@ -2,11 +2,11 @@
   <div class="d-flex form-container">
     <div [formGroup]="heroForm" class="form-group">
 
-      <input type="text" id="link" class="form-control"
+      <input placeholder="Shorten a link here" [ngClass]="link?.invalid && (link?.dirty || link?.touched) ? 'error-msg': ''" type="text" id="link" class="form-control"
              formControlName="link" required>
 
       <div *ngIf="link?.invalid && (link?.dirty || link?.touched)"
-           class="alert alert-danger">
+           class="error-msg">
 
         <div *ngIf="link?.errors?.['required']">
           please add a link

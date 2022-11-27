@@ -11,12 +11,30 @@
 .form-group{
   margin: auto 20px;
 }
-input{
-  min-width: 575px;
-  margin: 10px;
-  padding: 5px;
-  height: 35px;
+.error-msg{
+  color:hsl(0, 87%, 67%) !important;
+  //position: absolute;
+  font-size: 14px;
+  font-style: italic;
+  div{
+    position: absolute;
+  }
 }
+input.error-msg::placeholder{
+  color: hsl(0, 87%, 67%);
+}
+input{
+  min-width: 650px;
+  margin: 10px;
+  padding: 17px;
+  height: 35px;
+  margin-left: 0;
+  &.error-msg{
+  color:hsl(0, 87%, 67%)!important;
+  border-color: hsl(0, 87%, 67%);
+  }
+}
+
 ul{
   padding: 0px;
 }
@@ -45,4 +63,7 @@ li{
   .btn{
     width: 70px;
   }
+}
+@media screen and (min-width: 480px) {
+
 }
