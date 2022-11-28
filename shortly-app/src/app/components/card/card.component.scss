@@ -20,6 +20,7 @@ img{
 }
 .card-container{
   position: relative;
+  margin: 20px;
 }
 .card-body{
    padding-top: 75px;
@@ -32,4 +33,12 @@ img{
 }
 .card-title{
   font-weight: 600;
+}
+@media screen and (max-width: 900px) {
+.image-container{
+  left: 36%;
+}
+  h5,p{
+    text-align: center;
+  }
 }

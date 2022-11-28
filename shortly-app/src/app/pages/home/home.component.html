@@ -1,4 +1,4 @@
-<div>
+<div class="body">
 
 <app-banner></app-banner>
 
@@ -18,6 +18,8 @@
     </div>
 
     <hr>
+    <div class="vl mobile"></div>
+
     <div class="cards">
       <ng-container *ngFor="let card of cards; let i=index" >
         <app-card [cardData]="card" [ngStyle]="{'margin-top': (i*2)+'rem'}">

@@ -12,6 +12,21 @@ h2{
   font-weight: 700;
 }
 
+.web{
+  display: block;
+}
+.mobile{
+  display: none;
+}
+@media screen and (max-width: 900px) {
+  .web{
+    display: none;
+  }
+  .mobile{
+    display: block;
+  }
+}
+
 .btn-violet{
 background-color: hsl(257, 27%, 26%);
   color: #ffffff;

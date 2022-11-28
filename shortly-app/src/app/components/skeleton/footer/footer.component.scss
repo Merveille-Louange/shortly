@@ -26,3 +26,12 @@ a:hover{
   text-decoration: none;
   cursor: pointer;
 }
+
+@media screen and (max-width: 900px) {
+  .text-left{
+    text-align: center !important;
+  }
+  .mb-0 {
+    margin-left: 0px;
+  }
+}

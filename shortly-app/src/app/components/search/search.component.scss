@@ -64,6 +64,53 @@ li{
     width: 70px;
   }
 }
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 900px) {
+.form-container{
 
+  padding: 20px 0;
+  width: 100%;
+  min-width: 100%;
+  display: block !important;
+  background: hsl(257, 27%, 26%) url("../../../assets/images/bg-shorten-mobile.svg") right no-repeat;
+
+  input{
+    margin:0px;
+    width: 100%;
+    min-width: 90%;
+  }
+  .btn{
+    font-size: 14px;
+    font-weight: bold;
+    width: 87% ;
+    //min-width: 90%;
+    margin: auto;
+    margin-top: 30px;
+  }
+  .shorten{
+    display: flex;
+  }
+
+}
+  .float-right{
+    float: none !important;
+    .btn{
+      width: 100%;
+      margin: auto;
+      margin-top: 10px;
+      padding: 7px;
+      font-size: 14px;
+      font-weight: bold
+    }
+
+  }
+li{
+  margin: 20px 0;
+}
+.border-line{
+  width: 110%;
+  background-color: #bfbfbf00;
+  height: 0.5px;
+  margin: 10px 0;
+  margin-left: -5%;;
+}
 }

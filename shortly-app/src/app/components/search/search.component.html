@@ -13,7 +13,7 @@
         </div>
       </div>
     </div>
-    <div>
+    <div class="shorten">
       <button class="btn btn-primary" (click)="submitLink()">
         shorten it
       </button>
@@ -23,7 +23,8 @@
     <ul>
       <li *ngIf="shortenService.links?.length ==0">your links will be displayed here</li>
       <li *ngFor="let link of shortenService.links">
-        <span>{{link.original_link}}</span>
+        <span class="original-link">{{link.original_link}}</span>
+        <hr class="border-line mobile">
         <div class="float-right" #container>
           <span class="mr-3">
             {{link.full_short_link}}

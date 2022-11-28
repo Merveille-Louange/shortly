@@ -7,3 +7,9 @@
   color: rgba(0,0,0,1) !important;
 
 }
+@media screen and (max-width: 900px) {
+  .navbar-light .navbar-toggler {
+    border: none;
+    outline: none;
+  }
+}
